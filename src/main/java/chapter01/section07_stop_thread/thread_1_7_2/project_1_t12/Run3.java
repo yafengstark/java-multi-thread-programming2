@@ -1,5 +1,9 @@
-package chapter01.section07.thread_1_7_2.project_1_t12;
+package chapter01.section07_stop_thread.thread_1_7_2.project_1_t12;
 
+/**
+ * isInterrupted() 非静态方法
+ * 不会清除状态
+ */
 public class Run3 {
 	
 	public static void main(String[] args) {
