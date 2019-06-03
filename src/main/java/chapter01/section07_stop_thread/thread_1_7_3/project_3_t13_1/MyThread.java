@@ -1,5 +1,8 @@
-package chapter01.section07.thread_1_7_3.project_3_t13_1;
+package chapter01.section07_stop_thread.thread_1_7_3.project_3_t13_1;
 
+/**
+ * 解决异常法停止线程，语句继续运行问题
+ */
 public class MyThread extends Thread {
 	@Override
 	public void run() {

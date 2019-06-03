@@ -1,4 +1,4 @@
-package chapter01.section07.thread_1_7_3.project_3_t13_1;
+package chapter01.section07_stop_thread.thread_1_7_3.project_3_t13_1;
 
 public class Run {
 
