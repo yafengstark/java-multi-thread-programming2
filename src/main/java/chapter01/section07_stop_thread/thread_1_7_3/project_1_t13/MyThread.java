@@ -1,4 +1,4 @@
-package chapter01.section07.thread_1_7_3.project_1_t13;
+package chapter01.section07_stop_thread.thread_1_7_3.project_1_t13;
 
 public class MyThread extends Thread {
 	@Override
