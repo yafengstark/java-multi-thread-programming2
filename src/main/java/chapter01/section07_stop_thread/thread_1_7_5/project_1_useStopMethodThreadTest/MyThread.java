@@ -1,4 +1,4 @@
-package chapter01.section07.thread_1_7_5.project_1_useStopMethodThreadTest;
+package chapter01.section07_stop_thread.thread_1_7_5.project_1_useStopMethodThreadTest;
 
 public class MyThread extends Thread {
 	private int i = 0;

@@ -1,5 +1,9 @@
-package chapter01.section07.thread_1_7_5.project_1_useStopMethodThreadTest;
+package chapter01.section07_stop_thread.thread_1_7_5.project_1_useStopMethodThreadTest;
 
+/**
+ * 暴力停止
+ *
+ */
 public class Run {
 	public static void main(String[] args) {
 		try {
