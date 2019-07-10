@@ -1,6 +1,6 @@
-package chapter01.section10.thread_1_10_4.project_1_countPriority;
+package chapter01.section10_thread_priority.thread_1_10_4.project_1_countPriority;
 
-public class ThreadB extends Thread {
+public class ThreadA extends Thread {
 
 	private int count = 0;
 

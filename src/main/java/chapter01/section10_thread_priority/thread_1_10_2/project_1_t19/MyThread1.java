@@ -1,8 +1,8 @@
-package chapter01.section10.thread_1_10_2.project_1_t19;
+package chapter01.section10_thread_priority.thread_1_10_2.project_1_t19;
 
 import java.util.Random;
 
-public class MyThread2 extends Thread {
+public class MyThread1 extends Thread {
 	@Override
 	public void run() {
 		long beginTime = System.currentTimeMillis();
@@ -15,7 +15,7 @@ public class MyThread2 extends Thread {
 			}
 		}
 		long endTime = System.currentTimeMillis();
-		System.out.println("☆☆☆☆☆thread 2 use time=" + (endTime - beginTime));
+		System.out.println("★★★★★thread 1 use time=" + (endTime - beginTime));
 	}
 
 }

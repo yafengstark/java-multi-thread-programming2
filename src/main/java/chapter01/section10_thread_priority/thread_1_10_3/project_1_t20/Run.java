@@ -1,4 +1,4 @@
-package chapter01.section10.thread_1_10_3.project_1_t20;
+package chapter01.section10_thread_priority.thread_1_10_3.project_1_t20;
 
 public class Run {
 	public static void main(String[] args) {
