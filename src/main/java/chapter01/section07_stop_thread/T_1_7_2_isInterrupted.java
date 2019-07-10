@@ -1,10 +1,12 @@
-package chapter01.section07_stop_thread.thread_1_7_2.project_1_t12;
+package chapter01.section07_stop_thread;
+
+
 
 /**
  * isInterrupted() 非静态方法
  * 不会清除状态
  */
-public class Run3 {
+public class T_1_7_2_isInterrupted {
 	
 	public static void main(String[] args) {
 		try {

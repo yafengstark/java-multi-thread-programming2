@@ -1,10 +1,10 @@
-package chapter01.section07_stop_thread.thread_1_7_2.project_1_t12;
+package chapter01.section07_stop_thread;
 
 /**
  * interrupted() 是静态方法
  *
  */
-public class Run {
+public class T_1_7_2_interrupted {
 	
 	public static void main(String[] args) {
 		try {
