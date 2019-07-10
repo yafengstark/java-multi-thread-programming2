@@ -1,6 +1,9 @@
-package chapter01.section08.thread_1_8_2.project_1_suspend_resume_deal_lock;
+package chapter01.section08_pause_thread;
 
-public class Run {
+/**
+ * 使用suspend resume 独占锁问题
+ */
+public class T_1_8_2_suspend_resume_deal_lock {
 	public static void main(String[] args) {
 		try {
 			final SynchronizedObject object = new SynchronizedObject();
@@ -29,9 +32,20 @@ public class Run {
 			};
 			thread2.start();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 	}
 
+	static class SynchronizedObject {
+
+		synchronized public void printString() {
+			System.out.println("begin");
+			if (Thread.currentThread().getName().equals("a")) {
+				System.out.println("a线程永远 suspend了！");
+				Thread.currentThread().suspend();
+			}
+			System.out.println("end");
+		}
+	}
 }
