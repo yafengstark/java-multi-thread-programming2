@@ -5,7 +5,9 @@ public class Run {
 	public static void main(String[] args) throws InterruptedException {
 		Service service = new Service();
 		MyObject object = new MyObject();
-
+		/**
+		 * 锁定同一个对象
+		 */
 		ThreadA a = new ThreadA(service, object);
 		a.setName("a");
 		a.start();

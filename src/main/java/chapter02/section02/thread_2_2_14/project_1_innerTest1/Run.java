@@ -2,6 +2,9 @@ package chapter02.section02.thread_2_2_14.project_1_innerTest1;
 
 import chapter02.section02.thread_2_2_14.project_1_innerTest1.OutClass.Inner;
 
+/**
+ * 持有的不同的锁，是异步的
+ */
 public class Run {
 	public static void main(String[] args) {
 

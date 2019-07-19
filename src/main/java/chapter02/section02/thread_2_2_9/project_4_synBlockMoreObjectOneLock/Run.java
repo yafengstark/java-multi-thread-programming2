@@ -1,5 +1,9 @@
 package chapter02.section02.thread_2_2_9.project_4_synBlockMoreObjectOneLock;
 
+/**
+ * 用的一个锁
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) {

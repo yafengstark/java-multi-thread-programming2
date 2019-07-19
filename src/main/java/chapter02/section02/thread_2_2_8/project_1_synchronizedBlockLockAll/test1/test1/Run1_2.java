@@ -7,6 +7,10 @@ public class Run1_2 {
 		MyObject object1 = new MyObject();
 		MyObject object2 = new MyObject();
 
+		/**
+		 * 锁定不同对象
+		 */
+
 		ThreadA a = new ThreadA(service, object1);
 		a.setName("a");
 		a.start();

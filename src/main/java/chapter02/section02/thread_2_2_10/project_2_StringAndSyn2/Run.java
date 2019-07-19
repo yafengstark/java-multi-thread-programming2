@@ -1,5 +1,8 @@
 package chapter02.section02.thread_2_2_10.project_2_StringAndSyn2;
 
+/**
+ * 两个锁对象
+ */
 public class Run {
 
 	public static void main(String[] args) {

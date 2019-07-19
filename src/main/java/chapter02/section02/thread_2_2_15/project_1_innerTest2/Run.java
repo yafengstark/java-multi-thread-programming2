@@ -3,6 +3,11 @@ package chapter02.section02.thread_2_2_15.project_1_innerTest2;
 import chapter02.section02.thread_2_2_15.project_1_innerTest2.OutClass.InnerClass1;
 import chapter02.section02.thread_2_2_15.project_1_innerTest2.OutClass.InnerClass2;
 
+/**
+ * t1 t2异步
+ *
+ * t1 t3同步
+ */
 public class Run {
 
 	public static void main(String[] args) {
@@ -25,6 +30,8 @@ public class Run {
 				in2.method1();
 			}
 		}, "T3");
+
+
 		t1.start();
 		t2.start();
 		t3.start();

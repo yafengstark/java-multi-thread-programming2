@@ -18,7 +18,7 @@ public class DealThread implements Runnable {
 					System.out.println("username = " + username);
 					Thread.sleep(3000);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
+
 					e.printStackTrace();
 				}
 				synchronized (lock2) {
@@ -32,7 +32,7 @@ public class DealThread implements Runnable {
 					System.out.println("username = " + username);
 					Thread.sleep(3000);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
+
 					e.printStackTrace();
 				}
 				synchronized (lock1) {

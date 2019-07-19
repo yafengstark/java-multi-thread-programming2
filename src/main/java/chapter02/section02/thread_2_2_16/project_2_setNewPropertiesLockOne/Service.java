@@ -10,7 +10,7 @@ public class Service {
 				Thread.sleep(3000);
 				System.out.println("end! time=" + System.currentTimeMillis());
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
+
 				e.printStackTrace();
 			}
 		}
