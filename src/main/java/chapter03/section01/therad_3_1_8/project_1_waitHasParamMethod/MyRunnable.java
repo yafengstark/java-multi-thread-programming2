@@ -9,6 +9,8 @@ public class MyRunnable {
 				synchronized (lock) {
 					System.out.println("wait begin timer="
 							+ System.currentTimeMillis());
+
+					// 指定最迟唤醒时间
 					lock.wait(5000);
 					System.out.println("wait   end timer="
 							+ System.currentTimeMillis());

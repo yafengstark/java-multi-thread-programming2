@@ -4,6 +4,10 @@ import java.io.IOException;
 import java.io.PipedInputStream;
 import java.io.PipedOutputStream;
 
+/**
+ * 通过管道进行线程间通信-字节流
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) {

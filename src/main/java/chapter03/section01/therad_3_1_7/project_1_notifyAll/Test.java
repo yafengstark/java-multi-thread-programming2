@@ -1,5 +1,8 @@
 package chapter03.section01.therad_3_1_7.project_1_notifyAll;
 
+/**
+ * 唤醒所有线程
+ */
 public class Test {
 
 	public static void main(String[] args) throws InterruptedException {

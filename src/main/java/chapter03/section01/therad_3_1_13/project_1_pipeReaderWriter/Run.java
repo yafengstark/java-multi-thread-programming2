@@ -3,7 +3,10 @@ package chapter03.section01.therad_3_1_13.project_1_pipeReaderWriter;
 import java.io.IOException;
 import java.io.PipedReader;
 import java.io.PipedWriter;
-
+/**
+ * 通过管道进行线程间通信-字符流
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) {
@@ -12,7 +15,7 @@ public class Run {
 			WriteData writeData = new WriteData();
 			ReadData readData = new ReadData();
 
-			PipedReader inputStream = new PipedReader();
+			PipedReader inputStream = new PipedReader(); // 字符流
 			PipedWriter outputStream = new PipedWriter();
 
 			// inputStream.connect(outputStream);
