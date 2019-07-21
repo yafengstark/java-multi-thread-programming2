@@ -14,7 +14,7 @@ public class ThreadA extends Thread {
 		try {
 			synchronized (b) {
 				b.start();
-				Thread.sleep(6000);
+				Thread.sleep(6000); // 线程A一直持有锁6秒
 				// Thread.sleep()不释放锁
 			}
 		} catch (InterruptedException e) {
