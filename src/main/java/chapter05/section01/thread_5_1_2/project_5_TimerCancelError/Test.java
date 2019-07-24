@@ -4,6 +4,10 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Timer;
 
+/**
+ * Timer类中的cancel()方法有时不起作用
+ *
+ */
 public class Test {
 	
 	public static void main(String[] args) {

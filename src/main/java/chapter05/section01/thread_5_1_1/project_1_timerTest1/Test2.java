@@ -4,6 +4,13 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Timer;
 
+/**
+ * 改为守护线程
+ *
+ * 但是并不会执行
+ *
+ *
+ */
 public class Test2 {
 	
 	public static void main(String[] args) {

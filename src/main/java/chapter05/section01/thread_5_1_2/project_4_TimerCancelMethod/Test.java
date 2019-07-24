@@ -17,6 +17,11 @@ public class Test {
 		timer.schedule(task1, runDate1, 2000);
 		timer.schedule(task2, runDate1, 2000);
 		Thread.sleep(10000);
+
+		/**
+		 * 取消所有任务
+		 *
+		 */
 		timer.cancel();
 	}
 	

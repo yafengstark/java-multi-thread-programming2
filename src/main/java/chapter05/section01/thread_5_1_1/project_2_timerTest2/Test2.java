@@ -4,6 +4,15 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.Timer;
 
+/**
+ * 多个任务执行
+ *
+ * 顺序执行
+ *
+ * 不保证严格按照预期时间，被延后的可能
+ *
+ *
+ */
 public class Test2 {
 	
 	public static void main(String[] args) {

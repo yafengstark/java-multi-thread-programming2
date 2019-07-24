@@ -12,9 +12,16 @@ public class Test1 {
 		Calendar calendarRef = Calendar.getInstance();
 		calendarRef.add(Calendar.SECOND, 10);
 		Date runDate = calendarRef.getTime();
+
 		System.out.println("计划时间为：" + runDate);
+
 		MyTask task = new MyTask();
 		Timer timer = new Timer();
+
+		/**
+		 * 指定间隔执行
+		 *
+		 */
 		timer.schedule(task, runDate, 4000);
 	}
 
