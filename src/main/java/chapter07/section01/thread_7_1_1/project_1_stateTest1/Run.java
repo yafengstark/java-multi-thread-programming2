@@ -19,7 +19,7 @@ public class Run {
 			Thread.sleep(1000);
 			System.out.println("main方法中的状态2：" + t.getState());
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 
