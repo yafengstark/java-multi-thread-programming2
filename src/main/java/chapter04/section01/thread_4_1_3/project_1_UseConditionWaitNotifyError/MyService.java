@@ -11,6 +11,8 @@ public class MyService {
 
 	public void await() {
 		try {
+			// 缺少 lock.wait() 抛异常
+
 			condition.await();
 		} catch (InterruptedException e) {
 			e.printStackTrace();

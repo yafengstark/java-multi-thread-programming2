@@ -1,5 +1,8 @@
 package chapter04.section02.thread_4_2_3.project_1_ReadWriteLockBegin3;
 
+/**
+ * 读写互斥
+ */
 public class Run {
 
 	public static void main(String[] args) throws InterruptedException {

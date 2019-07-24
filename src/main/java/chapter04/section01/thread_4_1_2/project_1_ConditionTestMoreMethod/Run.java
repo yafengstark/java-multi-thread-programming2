@@ -8,6 +8,7 @@ public class Run {
 		ThreadA a = new ThreadA(service);
 		a.setName("A");
 		a.start();
+
 		ThreadAA aa = new ThreadAA(service);
 		aa.setName("AA");
 		aa.start();

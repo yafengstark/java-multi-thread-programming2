@@ -1,5 +1,8 @@
 package chapter04.section01.thread_4_1_8.project_1_ConditionTestManyToMany;
-
+/**
+ * 生产者消费者模式
+ * 多对多交替打印
+ */
 public class Run {
 
 	public static void main(String[] args) throws InterruptedException {

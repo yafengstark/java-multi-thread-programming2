@@ -1,5 +1,9 @@
 package chapter04.section01.thread_4_1_9.project_1_Fair_noFair_test;
 
+
+/**
+ * 非公平锁
+ */
 public class RunNotFair {
 
 	public static void main(String[] args) throws InterruptedException {

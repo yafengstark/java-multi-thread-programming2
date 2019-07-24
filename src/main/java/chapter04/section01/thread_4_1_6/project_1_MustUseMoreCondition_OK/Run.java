@@ -1,5 +1,12 @@
 package chapter04.section01.thread_4_1_6.project_1_MustUseMoreCondition_OK;
 
+/**
+ * 使用多个Condition实现通知部分线程
+ *
+ * 控制部分线程行为的方便方式
+ *
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) throws InterruptedException {

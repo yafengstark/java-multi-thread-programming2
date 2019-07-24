@@ -13,7 +13,7 @@ public class Service {
 					+ "进入方法！");
 			Thread.sleep(Integer.MAX_VALUE);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		} finally {
 			lock.unlock();

@@ -18,8 +18,8 @@ public class MyService {
 			}
 			System.out.println("打印★");
 			hasValue = true;
-			condition.signal();
-			//condition.signalAll();
+			condition.signal();// 可能假死
+			//condition.signalAll(); 解决假死
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		} finally {
