@@ -1,6 +1,10 @@
 package chapter03.section03.therad_3_3_3.project_1_ThreadLocal22;
 
+/**
+ * 默认值
+ */
 public class Run {
+
 	public static ThreadLocalExt tl = new ThreadLocalExt();
 
 	public static void main(String[] args) {

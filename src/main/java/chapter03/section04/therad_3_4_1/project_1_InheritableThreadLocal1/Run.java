@@ -1,5 +1,9 @@
 package chapter03.section04.therad_3_4_1.project_1_InheritableThreadLocal1;
 
+/**
+ * 在子线程中取得父线程继承下来的值
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) {

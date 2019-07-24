@@ -1,5 +1,9 @@
 package chapter03.section03.therad_3_3_4.project_1_ThreadLocal33;
 
+/**
+ * 子线程和父线程都有各自拥有的值
+ *
+ */
 public class Run {
 
 	public static void main(String[] args) {
